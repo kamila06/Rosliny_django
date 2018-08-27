@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+      <link rel="stylesheet" href="{% static 'css/stylesheet.css' %}">
+      <link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
+      <title>{% block title %}Rosliny{% endblock %}</title>
+  </head>
+  <body>
+    <nav class="menu-bar">
+        <a href="index">
+            <div id="logo"></div>
+        </a>
+        <a href="index">Główna</a>
+        <div class = "dropdown">
+            <button onclick="dropdown()" class="dropbtn">Katalog</button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="katalog#doniczkowe-duze">Doniczkowe duże</a>
+                <a href="katalog#doniczkowe-male">Doniczkowe małe</a>
+                <a href="katalog#iglaste">Iglaste</a>
+                <a href="katalog#kolorowe">Kolorowe</a>
+            </div>
+        </div>
+        <a href="kontakt">Kontakt</a>
+    </nav>
+
+    <div class="container">
+      <ol class="breadcrumb my-4">
+        {% block breadcrumb %}
+        {% endblock %}
+      </ol>
+      {% block content %}
+      {% endblock %}
+    </div>
+  </body>
+</html>

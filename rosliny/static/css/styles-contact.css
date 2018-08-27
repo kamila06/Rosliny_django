@@ -1,0 +1,39 @@
+#map {
+    height: 600px;
+    width: 800px;
+    margin: 30px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: darkgreen solid 2px;
+    border-radius: 5px;
+}
+
+.contact {
+    background-color: antiquewhite;
+    margin: 80px auto 10px;
+    width: 800px;
+    border: darkgreen solid 2px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.contact h1, .contact p {
+    color: darkgreen;
+    font-family: 'Catamaran', sans-serif;
+    margin: 10px;
+}
+
+.contact-form {
+    background-color: antiquewhite;
+    margin: 20px auto 5px;
+    width: 800px;
+    border: darkgreen solid 2px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.contact-form h1, .contact-form p {
+    color: darkgreen;
+    font-family: 'Catamaran', sans-serif;
+    margin: 10px;
+}

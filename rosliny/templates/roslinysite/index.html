@@ -1,0 +1,80 @@
+{% load staticfiles %}
+{% extends 'base.html' %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'css/stylesheet.css' %}">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
+    <title>Hodowla roślin domowych</title>
+</head>
+<body>
+    <nav class="menu-bar">
+        <a href="index">
+            <div id="logo"></div>
+        </a>
+        <a href="index">Główna</a>
+        <div class = "dropdown">
+            <button onclick="dropdown()" class="dropbtn">Katalog</button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="katalog#doniczkowe-duze">Doniczkowe duże</a>
+                <a href="katalog#doniczkowe-male">Doniczkowe małe</a>
+                <a href="katalog#iglaste">Iglaste</a>
+                <a href="katalog#kolorowe">Kolorowe</a>
+            </div>
+        </div>
+        <a href="kontakt">Kontakt</a>
+    </nav>
+
+<div class="main">
+    <article>
+        <div class="image"><img src="{% static 'images/storczyki.png' %}"></div>
+        <div class="main-article-description">
+            <h1>Storczyki</h1>
+            <p>Bacon ipsum dolor amet prosciutto biltong kielbasa corned beef t-bone leberkas ground round drumstick filet mignon shoulder pork belly doner capicola pork chop andouille. Bacon andouille tenderloin, corned beef beef swine pancetta ham hock turkey venison. Prosciutto flank rump short loin. Venison ham hock jerky short ribs chuck.
+
+                Spare ribs short loin corned beef swine bresaola ham hock capicola fatback. Ham shoulder tenderloin capicola. Filet mignon chuck ball tip frankfurter swine tenderloin jowl, spare ribs kielbasa venison flank pork chop bresaola beef. Bacon leberkas prosciutto kevin ham hock shank pancetta t-bone sirloin ribeye tail beef. Salami ham hock flank leberkas shankle. Boudin shankle shank pork loin corned beef beef ribs, jowl cupim landjaeger. Fatback biltong meatloaf, shankle drumstick brisket pork loin shoulder corned beef kevin venison prosciutto.
+
+                Ribeye shankle pig, salami shoulder biltong venison buffalo doner corned beef flank kielbasa pancetta. Tenderloin ribeye porchetta tail drumstick chuck shoulder. Short ribs porchetta capicola jowl leberkas chuck. Burgdoggen ball tip pancetta chuck short ribs jerky shankle rump tail. Cow turkey chicken tail meatloaf filet mignon shoulder biltong pancetta. Salami burgdoggen chicken landjaeger porchetta tongue pancetta ham hock turducken ribeye drumstick swine. Bresaola brisket pork chop, cow pig shank kielbasa hamburger.
+
+                Picanha biltong strip steak cow short loin bresaola. Cow short ribs meatloaf biltong spare ribs jowl strip steak boudin shank capicola doner porchetta sirloin pork belly short loin. Leberkas t-bone cupim bacon alcatra jerky pancetta doner, ground round shank turkey beef ribs chuck meatloaf. Buffalo porchetta short loin, meatball pork loin chuck pork chop ball tip pork belly sausage jerky shank frankfurter prosciutto. Strip steak swine pancetta, pork loin beef capicola fatback.</p>
+        </div>
+    </article>
+    <article>
+        <div class="image"><img src="{% static 'images/starzec-rowleya.jpg' %}" class="image"></div>
+        <div class="main-article-description">
+            <h1>Starzec Rowley'a</h1>
+            <p>Bacon ipsum dolor amet prosciutto biltong kielbasa corned beef t-bone leberkas ground round drumstick filet mignon shoulder pork belly doner capicola pork chop andouille. Bacon andouille tenderloin, corned beef beef swine pancetta ham hock turkey venison. Prosciutto flank rump short loin. Venison ham hock jerky short ribs chuck. Spare ribs short loin corned beef swine bresaola ham hock capicola fatback. Ham shoulder tenderloin capicola. Filet mignon chuck ball tip frankfurter swine tenderloin jowl, spare ribs kielbasa venison flank pork chop bresaola beef. Bacon leberkas prosciutto kevin ham hock shank pancetta t-bone sirloin ribeye tail beef. Salami ham hock flank leberkas shankle. Boudin shankle shank pork loin corned beef beef ribs, jowl cupim landjaeger. Fatback biltong meatloaf, shankle drumstick brisket pork loin shoulder corned beef kevin venison prosciutto. Ribeye shankle pig, salami shoulder biltong venison buffalo doner corned beef flank kielbasa pancetta. Tenderloin ribeye porchetta tail drumstick chuck shoulder. Short ribs porchetta capicola jowl leberkas chuck. Burgdoggen ball tip pancetta chuck short ribs jerky shankle rump tail. Cow turkey chicken tail meatloaf filet mignon shoulder biltong pancetta. Salami burgdoggen chicken landjaeger porchetta tongue pancetta ham hock turducken ribeye drumstick swine. Bresaola brisket pork chop, cow pig shank kielbasa hamburger. Picanha biltong strip steak cow short loin bresaola. Cow short ribs meatloaf biltong spare ribs jowl strip steak boudin shank capicola doner porchetta sirloin pork belly short loin. Leberkas t-bone cupim bacon alcatra jerky pancetta doner, ground round shank turkey beef ribs chuck meatloaf. Buffalo porchetta short loin, meatball pork loin chuck pork chop ball tip pork belly sausage jerky shank frankfurter prosciutto. Strip steak swine pancetta, pork loin beef capicola fatback.</p>
+        </div>
+    </article>
+    <article>
+        <div class="image"><img src="{% static 'images/fikus.jpg' %}" class="image"></div>
+        <div class="main-article-description">
+            <h1>Fikus</h1>
+            <p>Bacon ipsum dolor amet prosciutto biltong kielbasa corned beef t-bone leberkas ground round drumstick filet mignon shoulder pork belly doner capicola pork chop andouille. Bacon andouille tenderloin, corned beef beef swine pancetta ham hock turkey venison. Prosciutto flank rump short loin. Venison ham hock jerky short ribs chuck. Spare ribs short loin corned beef swine bresaola ham hock capicola fatback. Ham shoulder tenderloin capicola. Filet mignon chuck ball tip frankfurter swine tenderloin jowl, spare ribs kielbasa venison flank pork chop bresaola beef. Bacon leberkas prosciutto kevin ham hock shank pancetta t-bone sirloin ribeye tail beef. Salami ham hock flank leberkas shankle. Boudin shankle shank pork loin corned beef beef ribs, jowl cupim landjaeger. Fatback biltong meatloaf, shankle drumstick brisket pork loin shoulder corned beef kevin venison prosciutto. Ribeye shankle pig, salami shoulder biltong venison buffalo doner corned beef flank kielbasa pancetta. Tenderloin ribeye porchetta tail drumstick chuck shoulder. Short ribs porchetta capicola jowl leberkas chuck. Burgdoggen ball tip pancetta chuck short ribs jerky shankle rump tail. Cow turkey chicken tail meatloaf filet mignon shoulder biltong pancetta. Salami burgdoggen chicken landjaeger porchetta tongue pancetta ham hock turducken ribeye drumstick swine. Bresaola brisket pork chop, cow pig shank kielbasa hamburger. Picanha biltong strip steak cow short loin bresaola. Cow short ribs meatloaf biltong spare ribs jowl strip steak boudin shank capicola doner porchetta sirloin pork belly short loin. Leberkas t-bone cupim bacon alcatra jerky pancetta doner, ground round shank turkey beef ribs chuck meatloaf. Buffalo porchetta short loin, meatball pork loin chuck pork chop ball tip pork belly sausage jerky shank frankfurter prosciutto. Strip steak swine pancetta, pork loin beef capicola fatback.</p>
+        </div>
+    </article>
+</div>
+<footer>
+    <p>2018-05-14 Copyright by Rośliny</p>
+</footer>
+</body>
+<script>
+    function dropdown() {
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
+    window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+            }
+        }
+    }
+</script>
+
+</html>

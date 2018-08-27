@@ -1,0 +1,67 @@
+.vertical-menu {
+    width: 175px;
+    position: fixed;
+    margin-left: 20px;
+    background-color: rgba(241,241,241, 1);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 1px darkgreen solid;
+    border-radius: 3px;
+}
+
+.vertical-menu-position {
+    font-family: 'Catamaran', sans-serif;
+    display: block;
+    margin: 15px auto;
+    font-size: 18px;
+    width: 150px;
+    background-color: #FFFFFF;
+    border: solid 1px gray;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.vertical-menu-position:hover {
+    box-shadow: none;
+    background-color: rgba(241,241,241, 1);
+}
+
+.vertical-menu a {
+    text-decoration: none;
+    color: darkgreen;
+    text-align: center;
+}
+
+
+.katalog {
+    margin: 60px 0 0 350px;
+}
+
+.header {
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 16px;
+    font-family: 'Catamaran', sans-serif;
+    color: darkgreen;
+    text-align: center;
+    width: 400px;
+}
+
+.gallery {
+    display: inline-block;
+    padding: 10px 10px 0;
+    background-color: #FFFFFF;
+}
+
+.gallery img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 200px;
+    width: auto;
+}
+
+.catalog-description {
+    font-size: 16px;
+    font-family: 'Catamaran', sans-serif;
+    color: darkgreen;
+    text-align: center;
+    padding: 3px;
+}
